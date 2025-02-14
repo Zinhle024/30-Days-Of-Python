@@ -180,10 +180,10 @@ There are several data types in Python. To identify the data type we use the _ty
 ## Checking Data types and Casting
 
 - Check Data types: To check the data type of certain data/variable we use the _type_
-  **Examples:**
+  **Examples:**Home
 
 ```py
-# Different python data types
+# Different python data typesHome
 # Let's declare variables with various data types
 
 first_name = 'Asabeneh'     # str

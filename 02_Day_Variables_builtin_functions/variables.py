@@ -1,40 +1,58 @@
+#30 Days of python programming
+import math
 
-# Variables in Python
 
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
-country = 'Finland'
-city = 'Helsinki'
-age = 250
-is_married = True
-skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
-person_info = {
-    'firstname':'Asabeneh', 
-    'lastname':'Yetayeh', 
-    'country':'Finland',
-    'city':'Helsinki'
-    }
+first_name = "Zinhle"
+last_name = "Mthimunye"
+full_name = "Zinhle Mthimunye"
+country = "South Africa"
+city = "Johannesburg"
+age = 20
+is_married = False 
+is_true = "competetive"
+is_light = "weight"
+beginner , python, female = True , True , True
 
-# Printing the values stored in the variables
 
-print('First name:', first_name)
-print('First name length:', len(first_name))
-print('Last name: ', last_name)
-print('Last name length: ', len(last_name))
-print('Country: ', country)
-print('City: ', city)
-print('Age: ', age)
-print('Married: ', is_married)
-print('Skills: ', skills)
-print('Person information: ', person_info)
 
-# Declaring multiple variables in one line
 
-first_name, last_name, country, age, is_married = 'Asabeneh', 'Yetayeh', 'Helsink', 250, True
+# Exercises: Level 2
+print(type(first_name))
+print(type(last_name))
+print(type(full_name))
+print(type(country))
+print(type(city))
+print(type(age))
+print(type(is_married)) 
+print(type(is_true))
+print(type(is_light))
+print(type((beginner,python,female)))
 
-print(first_name, last_name, country, age, is_married)
-print('First name:', first_name)
-print('Last name: ', last_name)
-print('Country: ', country)
-print('Age: ', age)
-print('Married: ', is_married)
+
+print(len(first_name) == len(last_name))
+
+num_one = 5
+num_two = 4
+total = num_one + num_two
+diff = num_two - num_one
+product = num_two * num_one
+division = num_one / num_two
+remainder = num_two % num_one
+exp = num_one ** num_two
+floor_division = num_one // num_two
+
+#raduis pi.radius.radius
+
+radius = 30
+area_of_circle = math.pi * radius ** 2
+_circum_of_circle_ = 2 * radius
+
+# user_radius = input("What, is the circle radius")
+# user_area_of_circle = math.pi * int(user_radius) ** 2
+
+# user_first_name = input("What is your first name?")
+# user_last_name = input("What is your last name?")
+# user_country = input("Which country are you from ?")
+# user_age = input("How old are you?")
+
+print(help('keywords'))
