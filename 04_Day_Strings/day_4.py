@@ -1,3 +1,107 @@
+#Day 4 Excersices
+#Q1
+num = 'Thirty'
+day = 'Days'
+preposition = 'Of'
+noun = 'Python'
+sen = num + day + preposition +noun
+
+print(sen)
+
+#Q2
+a,b,c = ['Coding', 'For' , 'All']
+concat = a + b + c
+
+print(concat)
+
+#Q3
+company = "Coding For All"
+
+#Q4
+print(company)
+
+#Q5
+print(len(company))
+
+#Q6
+print(company.upper())
+
+#Q7
+print(company.lower())
+
+#Q8
+string = "cODING fOR aLL"
+
+print(string.swapcase())
+print(string.title())
+print(string.capitalize())
+
+#Q9
+string = "Coding For All"
+
+print(string[:6])
+
+#Q10
+print("Coding" in string)
+
+#Q11
+print(string.replace("Coding","Python"))
+
+#Q12
+name = "Python for Everyone"
+print(name.replace("Everyone","All"))
+
+#Q13
+print(name.split(" "))
+
+#Q14
+social =  "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(social.split(","))
+
+#Q15
+print(name[0])
+
+#Q16
+print(name[-1])
+
+#Q17
+print(name[10])
+
+#Q18
+acr = [word[0] for word in name.split(" ")]
+print("ACRONYM")
+print(" ".join(acr).upper())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Single line comment
 letter = 'P'                # A string could be a single character or a bunch of texts
