@@ -72,6 +72,82 @@ acr = [word[0] for word in name.split(" ")]
 print("ACRONYM")
 print(" ".join(acr).upper())
 
+#Q19
+statement = "Coding For All"
+acro = [word[0] for word in name.split(" ")]
+print(" ".join(acro).upper())
+
+#Q20
+print(statement.index("C"))
+
+#Q21
+print(statement.index("F"))
+
+#Q22
+phrase = " Coding For All People"
+print(phrase.rfind("l"))
+
+#Q23
+sentence1 = "You cannot end a sentence with because because because is a conjunction"
+print(sentence1.find("because"))
+
+#Q24
+print(sentence1.rfind("because"))
+
+#Q25
+mylist = [word for word in sentence1.split(" ")]
+print(" ".join(mylist[6:9]))
+
+#Q26
+print(sentence1.index("because"))
+
+#Q27
+mylist = [word for word in sentence1.split(" ")]
+print(" ".join(mylist[6:9]))
+
+#Q28
+#Yes
+
+#Q29
+#NO
+
+#Q30
+sentence2 = "   Coding For All  "
+print(sentence2.strip())
+
+#Q31
+#Second variable
+
+#Q32
+libraries = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print(" ".join(libraries))
+
+#Q33
+print("I am enjoying this challenge.\nI just wonder what is next.")
+
+#Q34
+print("Name\tAge\tCountry\tCity\nAsabeneh\t250\tFinland\tHelsinki")
+
+#Q35
+radius = 10
+area = 3.14 * radius ** 2
+
+print(f"The area of a circle with radius {radius} is {area} meters square.")
+
+#Q36
+a = 8
+b = 6
+sum = a + b
+diffrence = a - b
+multiplication = a * b
+division = a / b
+modulus = a % b
+floor = a // b
+power = a ** b
+
+print(f"{a} + {b} = {sum}\n {a} - {b} = {diffrence}\n {a} * {b} = {multiplication}\n {a} / {b} = {division}\n {a} % {b} = {modulus}\n {a} // {b} = {floor}\n" {a} ** {b} = {power})
+
+
 
 
 
