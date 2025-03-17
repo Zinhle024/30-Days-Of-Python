@@ -145,39 +145,7 @@ modulus = a % b
 floor = a // b
 power = a ** b
 
-print(f"{a} + {b} = {sum}\n {a} - {b} = {diffrence}\n {a} * {b} = {multiplication}\n {a} / {b} = {division}\n {a} % {b} = {modulus}\n {a} // {b} = {floor}\n" {a} ** {b} = {power})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(f"{a} + {b} = {sum}\n {a} - {b} = {diffrence}\n {a} * {b} = {multiplication}\n {a} / {b} = {division}\n {a} % {b} = {modulus}\n {a} // {b} = {floor}\n {a} ** {b} = {power}")
 
 # Single line comment
 letter = 'P'                # A string could be a single character or a bunch of texts
