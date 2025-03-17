@@ -267,5 +267,23 @@ back_end = ['Node','Express', 'MongoDB']
 
 front_end.extend(back_end)
 
-#Q24
+#Q27
+full_stack = front_end.copy()
+full_stack.insert(5,"Python")
+full_stack.insert(6,"SQL")
 
+#LEVEL 2
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+
+ages.sort()
+minimum = min(ages)
+maximum = max(ages)
+ages.append(min(ages))
+ages.append(max(ages))
+median = (ages[4] + ages[5]) / 2
+average = sum(ages) / len(ages)
+abs((minimum-average))
+abs((maximum-average))
+
+
+ 
