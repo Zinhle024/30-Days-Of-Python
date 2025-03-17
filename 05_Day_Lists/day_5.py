@@ -177,3 +177,95 @@ ages.sort()
 print(ages) 
 ages.sort(reverse=True)
 print(ages) 
+
+
+#Day 5 exercise
+
+# Q1
+mylist = list()
+
+#Q2
+languages = ["Python","Java","HTML","JavaScript","C#","Flutter"]
+
+#Q3
+print(len(languages))
+
+#Q4
+print(languages[0])
+print(languages[-1])
+print(languages[3])
+
+#Q5
+mixed_data_types = ["Zinhle",21,85,"Single","Johannesburg-South Africa"]
+
+#Q6
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+
+#Q7
+print(it_companies)
+
+#Q8
+print(len(it_companies))
+
+#Q9
+print(it_companies[0])
+print(it_companies[-1])
+print(it_companies[len(it_companies)//2])
+
+#Q10
+it_companies[0] = "X"
+print(it_companies)
+
+#Q11
+it_companies.append("Meta")
+
+#Q12
+it_companies.insert(3,"Scrums")
+
+#Q13
+it_companies = it_companies[0].upper()
+
+#Q14
+it_companies.extend("#;&nbsp;")
+
+#Q15
+print("Apple" in it_companies)
+
+#Q16
+it_companies.sort()
+
+#Q17
+it_companies.reverse()
+
+#Q18
+three = it_companies[:3]
+
+#Q19
+last = it_companies[-3:]
+
+#Q20
+middle = it_companies[len(it_companies)//2]
+
+#Q21
+it_companies.remove(it_companies[0])
+
+#Q22
+it_companies.remove(it_companies[len(it_companies)//2])
+
+#Q23
+it_companies.remove(it_companies[-1])
+
+#Q24
+it_companies.clear()
+
+#Q25
+del it_companies
+
+#Q26
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+
+front_end.extend(back_end)
+
+#Q24
+
